@@ -42,3 +42,49 @@ Parts of this project page were adopted from the [Nerfies](https://nerfies.githu
 
 ## Website License
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+
+# Summary
+
+## ORIBA: Transforming Artists' Original Characters into Chatbots
+## Introduction
+ORIBA is an innovative AI chatbot that transforms artists' original characters (OCs) into interactive agents. This research explores the intersection of illustration art and artificial intelligence (AI), focusing on how illustrators engage with AI agents that embody their OCs. By examining the impact of AI on the creative process and the boundaries of authorship, we aim to enhance human-AI interactions in creative fields, with potential applications extending beyond illustration to interactive storytelling and more.
+
+{Insert Image: ORIBA Workflow}
+
+## Key Features
+Autonomous Agents for Creators: ORIBA leverages advancements in AI technology, such as AutoGPT, BabyAGI, and CAMEL, to transform artists' OCs into autonomous agents. These agents can observe, reflect, and make decisions, enhancing the believability of virtual characters and reshaping artists' storytelling and illustration approaches.
+
+### ORIBA Workflow: The ORIBA workflow consists of the following steps:
+
+Observation: The Agent forms an observation based on the most recent dialogue records (5 entries), summarizing what has happened.
+Reflection: The Agent reflects, associating information from its own profile.
+Impression: The Agent summarizes its impression of the current speaker.
+Behavior: The Agent describes its current physical or facial behavior.
+Action: The Agent chooses an action. By default, we provide three actions: "Normal reply", "Relate reply (relate to memories)", and "Silence".
+Reply: After generating the ORIBA trajectory, the character's final reply is produced.
+This approach allows artists to not only receive responses from their OCs but also observe how they think and behave. Through in-depth and informative conversations, we aim to support and facilitate the creative process of authors.
+
+{image inno}
+
+Authors
+Yuqian Sun: Royal College of Art, London, United Kingdom. Email: yuqiansun@network.rca.ac.uk
+Xingyu Li: Georgia Institute of Technology, Atlanta, United States. Email: xingyu@gatech.edu
+Ze Gao: Hong Kong University of Science and Technology, Hong Kong SAR, China. Email: zgaoap@connect.ust.hk
+
+
+### Conclusion
+Our study provides valuable insights into effective human-machine collaboration in creative tasks. We found that illustrators adapted their working styles to accommodate the AI agent's capabilities, resulting in more efficient collaboration. However, maintaining the illustrator's agency and creative input is crucial in the collaboration process. Our platform enables authors to interact with their original characters via AI-powered dialogue systems, providing a unique testing ground for expanding creativity.
+
+{image esca}
+
+### Future Works
+Based on the limitations of our system, there are three main directions for our further study:
+
+Improve AI's associative capabilities: Enhance the AI's reasoning and associative abilities to align more with the character's details in the profile.
+
+Enhance AI's personalized responses: Improve the AI's language tone and emotional responses to make the AI agents more characterized.
+
+Improve AI's memories: Enhance the AI's ability to recall past interactions to ensure consistency in long-term conversations.
+
+{Insert Image: Future Works}
